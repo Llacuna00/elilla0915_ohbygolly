@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import './App.css';
 //pages
@@ -12,7 +12,7 @@ import Logo from './graphics/GraphicLogo.png';
 function App() {
   return (
     <div class="App">
-      <img src={Logo} width="100%" />
+      <img src={Logo} width="100%" alt='logo' />
       <Link to='/Home'>
         <button id='Home'>Home</button>
       </Link>

@@ -1,16 +1,21 @@
 #gallery-container {
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   padding: 15px;
 }
 
-#gallery-item img {
-  width: 75%;
+.shop-item-wrapper {
+  text-decoration:none;
+  border: solid rgba(0,0,0,0.3);
+  border-width:0px 1px 0px 1px;
+  cursor:pointer;
+  width: 40vw;
   padding: 10px;
   align-items: center;
+  margin:0;
+  text-align: center;
 }
 
-#gallery-item {
-  margin: auto;
-  text-align: center;
+.shop-item-img {
+	width: 100%;
 }
