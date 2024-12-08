@@ -9,7 +9,7 @@ import ReadyToShip from './Pages/ReadyToShip';
 function App() {
   return (
     <div class="App">
-      <h1>Insert logo here</h1>
+      <h1><img src='./graphics/GraphicLogo.png' /></h1>
       <Link to='/Home'>
         <button id='Home'>Home</button>
       </Link>
