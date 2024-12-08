@@ -1,0 +1,19 @@
+Body#RequestInfo {
+    margin: Auto;
+}
+
+label {
+    float: left;
+    margin: auto;
+    padding-left: 15%; 
+}
+
+input {
+    margin: auto;
+    width: 50%;
+}
+
+button#Submit {
+    margin: 0 35%;
+    text-align: center;
+}

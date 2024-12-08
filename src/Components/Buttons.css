@@ -1,0 +1,24 @@
+div {
+    align-content: center;
+}
+
+#RequestButton {
+    background-color: #ef6f6c;
+    border-radius: 20px 5px 5px 20px;
+    font-size: 20px;
+}
+  
+#ReadyButton {
+    background-color: #ef6f6c;
+    float: middle;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#GalleryButton {
+    background-color: #ef6f6c;
+    padding: 15px;
+    float: right;
+    font-size: 20px;
+}
+    
