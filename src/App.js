@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
 import './App.css';
+//pages
 import Home from './Pages/Home';
 import Gallery from './Pages/Gallery';
 import RequestInfo from './Pages/RequestInfo';
 import ReadyToShip from './Pages/ReadyToShip';
+//images
+import Logo from './graphics/GraphicLogo.png';
 
 function App() {
   return (
     <div class="App">
-      <h1><img src='./graphics/GraphicLogo.png' /></h1>
+      <img src={Logo} width="100%" />
       <Link to='/Home'>
         <button id='Home'>Home</button>
       </Link>
@@ -33,6 +36,10 @@ function App() {
   <Route path='/Gallery' element={
       <Gallery />} />
   </Routes>
+
+  <footer>
+    <p>Oh By Golly</p>
+  </footer>
   </div>
   );
 }

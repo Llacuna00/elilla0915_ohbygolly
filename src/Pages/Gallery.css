@@ -1,7 +1,16 @@
-#GalleryButton {
-    background-color: #ef6f6c;
-    padding: 5px;
-    margin: 5% 5% 5% 10%;
-    border-radius: 5px 5px 5px 5px;
-    font-size: 20px;
-  }
+#gallery-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 15px;
+}
+
+#gallery-item img {
+  width: 75%;
+  padding: 10px;
+  align-items: center;
+}
+
+#gallery-item {
+  margin: auto;
+  text-align: center;
+}

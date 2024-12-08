@@ -1,21 +1,10 @@
 html {
   height: 100%;
-  background-image: linear-gradient(white, #e6f0f0);
   background-size: cover;
 }
 
 body {
   height: 100%;
-  padding: 3%;
-}
-
-h1 {
-  background-color: #ef6f6c;
-  /*color: #08605F;*/
-  /*insert image*/
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 5px 5px 10px #08605F;
   padding: 3%;
 }
 

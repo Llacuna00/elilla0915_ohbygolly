@@ -1,14 +1,31 @@
 import React, { useState } from 'react';
 import './Gallery.css';
+import picture from '../graphics/WordLogo.png';
 
 export default function Gallery() {
     
     return (
-        <div>
-            <form>
-                <p>Show items here</p>
-                <img src="logo.svg" alt="logo"/>
-            </form>
-       </div>
+        <div id="gallery-container">
+            <div id="gallery-item">
+                <img src={picture} alt="item" />
+                <h3>Item description</h3>
+            </div>
+            <div id="gallery-item">
+                <img src={picture} alt="item" />
+                <h3>Item description</h3>
+            </div>
+            <div id="gallery-item">
+                <img src={picture} alt="item" />
+                <h3>Item description</h3>
+            </div>
+            <div id="gallery-item">
+                <img src={picture} alt="item" />
+                <h3>Item description</h3>
+            </div>
+            <div id="gallery-item">
+                <img src={picture} alt="item" />
+                <h3>Item description</h3>
+            </div>
+        </div>
     );
   }

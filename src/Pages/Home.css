@@ -4,3 +4,10 @@ p {
     padding: 30px;
     text-align: center;
 }
+
+img#profile {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
